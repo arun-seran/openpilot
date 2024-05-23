@@ -1076,6 +1076,7 @@ FW_VERSIONS = {
   CAR.PASSPORT: {
     (Ecu.programmedFuelInjection, 0x18da10f1, None): [
       b'37805-RLV-B220\x00\x00',
+      b'37805-RLV-L160\x00\x00',
     ],
     (Ecu.eps, 0x18da30f1, None): [
       b'39990-TGS-A230\x00\x00',
@@ -1085,6 +1086,7 @@ FW_VERSIONS = {
     ],
     (Ecu.gateway, 0x18daeff1, None): [
       b'38897-TG7-A040\x00\x00',
+      b'38897-TG7-A030\x00\x00',
     ],
     (Ecu.srs, 0x18da53f1, None): [
       b'77959-TGS-A010\x00\x00',
@@ -1094,9 +1096,11 @@ FW_VERSIONS = {
     ],
     (Ecu.transmission, 0x18da1ef1, None): [
       b'28101-5EZ-A600\x00\x00',
+      b'28101-5EZ-A430\x00\x00',
     ],
     (Ecu.combinationMeter, 0x18da60f1, None): [
       b'78109-TGS-AT20\x00\x00',
+      b'78109-TGS-AH20\x00\x00',
     ],
     (Ecu.vsa, 0x18da28f1, None): [
       b'57114-TGS-A530\x00\x00',
